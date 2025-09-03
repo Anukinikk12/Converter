@@ -1,0 +1,76 @@
+﻿@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter-VariableFont_opsz,wght.ttf);
+}
+
+body
+{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family:"inter";
+    color:white;
+}
+
+#main-page {
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+}
+
+#main-page h1 {
+    margin-bottom: 20px;
+}
+
+#convert-btn {
+    height: 42px;
+    width: 117px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+}
+
+#second-page {
+    width: 550px;
+    height: 445px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #CCC1FF;
+}
+
+#enter-amount {
+    border: 2px solid #B295FF;
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    background-color: transparent;
+    display: inline;
+    font-size: 58px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+#second-page div {
+    width: 500px;
+    height: 108.57px;
+    background-color: #273549;
+    margin-top:20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
